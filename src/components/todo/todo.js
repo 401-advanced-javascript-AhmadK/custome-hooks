@@ -71,7 +71,8 @@ function ToDo (props) {
     let details = todoList.filter( item => item._id === id )[0] || {};
     setState({details, showDetails});
   }
-
+  
+ // eslint-disable-next-line
   render() {
     return (
       <>
